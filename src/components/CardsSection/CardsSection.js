@@ -2,6 +2,7 @@ import React from 'react'
 import single from "../../assets/single.png"
 import double from "../../assets/double.png"
 import triple from "../../assets/triple.png"
+import { routes } from '../../constants'
 
 const CardsSection = () => {
 
@@ -30,7 +31,7 @@ const CardsSection = () => {
     ]
 
     return (
-        <div className='w-full py-20 px-4 text-black bg-white'>
+        <div className='w-full py-20 px-4 text-black bg-white' id={routes.pricing}>
             <div className='max-w-[1240px] grid md:grid-cols-3 mx-auto gap-8'>
 
                 {cardsData?.map((item, i) =>

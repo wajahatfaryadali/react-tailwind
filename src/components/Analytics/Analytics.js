@@ -1,8 +1,9 @@
 import React from 'react'
 import laptop from "../../assets/laptop.jpg"
+import { routes } from '../../constants'
 const Analytics = () => {
     return (
-        <div className='bg-white w-full py-16 px-4'>
+        <div className='bg-white w-full py-16 px-4' id={routes.analytics}>
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
                 <img className='w-[500px] mx-auto my-4' src={laptop} alt='/' />
                 <div className='my-auto'>
@@ -17,9 +18,9 @@ const Analytics = () => {
                 </div>
 
             </div>
-<div className='h-[40px]'>
+            <div className='h-[40px]'>
 
-</div>
+            </div>
         </div>
     )
 }

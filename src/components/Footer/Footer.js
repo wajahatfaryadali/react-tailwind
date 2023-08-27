@@ -1,5 +1,6 @@
 import React from 'react'
 import { AiFillFacebook, AiFillInstagram, AiFillTwitterSquare, AiOutlineGithub, AiFillDribbbleCircle } from "react-icons/ai";
+import { routes } from '../../constants';
 
 const Footer = () => {
 
@@ -50,6 +51,7 @@ const Footer = () => {
         },
     ]
 
+    
     return (
         <div className='w-full text-white py-16 px-4'>
             <div className='max-w-[1240px] mx-auto text-white grid lg:grid-cols-3 gap-4'>
@@ -68,10 +70,10 @@ const Footer = () => {
                     <div className='grid sm:grid-cols-4 grid-cols-2 gap-4'>
 
                         {footerData.map((item, index) =>
-                            <div>
-                                <p className='text-gray-400 text-lg' key={index}>{item.title}</p>
+                            <div key={index}>
+                                <p className='text-gray-400 text-lg'>{item.title}</p>
                                 {item.list.map((listItem, i) =>
-                                    <p className='py-2' key={index}>{listItem}</p>
+                                    <p className='py-2' key={i}>{listItem}</p>
                                 )}
 
                             </div>

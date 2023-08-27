@@ -1,8 +1,9 @@
 import React from 'react'
+import { routes } from '../../constants'
 
 const NewsLetter = () => {
     return (
-        <div className='w-full py-16 text-white px-3'>
+        <div className='w-full py-16 text-white px-3' id={routes.getInTouch}> 
             <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
                 <div className='lg:col-span-2'>
                     <p className='md:4xl sm:text-2xl text-sm font-bold py-2'>Want tips & tricks to optimise your flow?</p>
