@@ -9,6 +9,7 @@ import { routes } from "./constants";
 import { useEffect, useReducer, useState } from "react";
 // import ContactMeModal from "./components/ContactMeModal";
 import { contactMeReducer, initialState } from "./reducers/contactMeReducer";
+import AboutDeveloper from "./components/AboutDeveloper";
 
 function App() {
 
@@ -59,6 +60,8 @@ function App() {
       </a>
 
       {/* <ContactMeModal visible={state.isVisible} handleModal={handleModal}/> */}
+
+      <AboutDeveloper />
 
     </div>
 

@@ -56,7 +56,7 @@ const Footer = () => {
         <div className='w-full text-white py-16 px-4'>
             <div className='max-w-[1240px] mx-auto text-white grid lg:grid-cols-3 gap-4'>
                 <div className='md:mb-0 mb-4'>
-                    <h1 className='w-full text-[#00df9a] text-3xl font-bold'>React.</h1>
+                    <h1 className='w-full text-[#00df9a] text-3xl font-bold'>WFA.</h1>
                     <p className='py-2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     <div className='flex gap-4 mt-2'>
                         {iconsList.map((e, i) =>

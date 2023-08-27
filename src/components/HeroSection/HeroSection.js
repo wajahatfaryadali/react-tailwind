@@ -12,17 +12,47 @@ const HeroSection = () => {
     return (
         <div className=' text-white' id={routes.home}>
             <div className=' max-w-[800px] mt-[-96px] w-full h-screen flex justify-center flex-col mx-auto text-center'>
-                <p className='text-[#00df9a] md:4xl sm:text-2xl text-sm font-bold'>Front End Developer</p>
-                <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-3 sm:py-2 py-1'>Just UI</h1>
+                <p className='text-[#00df9a] md:4xl sm:text-2xl text-sm font-bold'>Wajahat Faryad Ali</p>
+                <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-3 sm:py-2 py-1'>Software Engineer</h1>
                 <div className='flex justify-center text-2xl'>
-                    <p>This project is built using {"- "}</p>
+                    <p>Skill set includes{"- "}</p>
                     <TypeAnimation
                         sequence={[
-                            'ReactJs',
+                            'Front End Developer',
                             1000,
-                            'Vite',
+                            'UI Developer',
+                            1000,
+                            'Front End Programmer',
+                            1000,
+                            'HTML',
+                            1000,
+                            'CSS',
+                            1000,
+                            'Javascript',
+                            1000,
+                            'Jquery',
+                            1000,
+                            'DOM Manipulation',
+                            1000,
+                            'React Js',
+                            1000,
+                            'React Redux',
+                            1000,
+                            'Redux (core/tool-kit)',
+                            1000,
+                            'Redux Saga',
+                            1000,
+                            'React Routers',
+                            1000,
+                            'Material UI',
+                            1000,
+                            'Semantic UI',
+                            1000,
+                            'BootStrap',
                             1000,
                             'Tailwind',
+                            1000,
+                            'Git',
                             1000,
                         ]}
                         wrapper="span"
