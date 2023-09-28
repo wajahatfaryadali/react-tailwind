@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Live Link
+This project is deployed on Vercel black and white here is the [Link](https://wajahat-sample-work.vercel.app/)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
